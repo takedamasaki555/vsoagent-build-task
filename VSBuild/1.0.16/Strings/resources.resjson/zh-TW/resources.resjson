@@ -1,0 +1,20 @@
+{
+  "loc.friendlyName": "Visual Studio 組建",
+  "loc.helpMarkDown": "[詳細資訊](http://go.microsoft.com/fwlink/?LinkID=613727)",
+  "loc.description": "Build with MSBuild and set the Visual Studio version property",
+  "loc.instanceNameFormat": "建置方案 $(solution)",
+  "loc.group.displayName.advanced": "進階",
+  "loc.input.label.solution": "方案",
+  "loc.input.help.solution": "要執行的方案或 MSBuild 專案之儲存機制根的相對路徑。可使用萬用字元。例如，適用於所有子資料夾之全部 sln 檔案的 `**\\*.sln` 。",
+  "loc.input.label.msbuildArgs": "MSBuild 引數",
+  "loc.input.help.msbuildArgs": "傳遞至 MSBuild 的額外引數。",
+  "loc.input.label.platform": "平台",
+  "loc.input.label.configuration": "組態",
+  "loc.input.label.clean": "清除",
+  "loc.input.label.restoreNugetPackages": "還原 NuGet 套件",
+  "loc.input.label.vsVersion": "Visual Studio 版本",
+  "loc.input.help.vsVersion": "若找不到慣用版本，將會改用所能找到的最新版本。",
+  "loc.input.label.msbuildArchitecture": "MSBuild 架構",
+  "loc.input.help.msbuildArchitecture": "選擇性地提供 MSBuild 的架構 (x86、x64) 以執行。",
+  "loc.input.label.logProjectEvents": "記錄專案詳細資料"
+}

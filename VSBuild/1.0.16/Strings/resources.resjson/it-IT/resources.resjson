@@ -1,0 +1,20 @@
+{
+  "loc.friendlyName": "Compilazione Visual Studio",
+  "loc.helpMarkDown": "[Altre informazioni](http://go.microsoft.com/fwlink/?LinkID=613727)",
+  "loc.description": "Build with MSBuild and set the Visual Studio version property",
+  "loc.instanceNameFormat": "Compila la soluzione $(solution)",
+  "loc.group.displayName.advanced": "Avanzate",
+  "loc.input.label.solution": "Soluzione",
+  "loc.input.help.solution": "Percorso relativo dalla radice del repository delle soluzioni o del progetto MSBuild da eseguire. È possibile usare i caratteri jolly, ad esempio `**\\*.sln` per indicare tutti i file sln in tutte le sottocartelle.",
+  "loc.input.label.msbuildArgs": "Argomenti MSBuild",
+  "loc.input.help.msbuildArgs": "Argomenti aggiuntivi passati a MSBuild.",
+  "loc.input.label.platform": "Piattaforma",
+  "loc.input.label.configuration": "Configurazione",
+  "loc.input.label.clean": "Pulisci",
+  "loc.input.label.restoreNugetPackages": "Ripristina pacchetti NuGet",
+  "loc.input.label.vsVersion": "Versione Visual Studio",
+  "loc.input.help.vsVersion": "Se la versione preferita non viene trovata, verrà usata la versione più recente.",
+  "loc.input.label.msbuildArchitecture": "Architettura MSBuild",
+  "loc.input.help.msbuildArchitecture": "Consente, facoltativamente, di specificare l'architettura (x86, x64) di MSBuild da eseguire.",
+  "loc.input.label.logProjectEvents": "Registra dettagli progetto"
+}
